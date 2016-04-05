@@ -1,0 +1,70 @@
+#chat-window{
+
+
+  .item{
+    border-bottom:1px solid #CECECE;
+    line-height:30px;
+    i{
+      vertical-align:middle;
+    }
+  }
+
+
+
+  .chat-body{
+    position:absolute;
+    top:20px;
+    bottom:20px;
+    right:0;
+    left:0;
+    overflow-y:auto;
+
+    span{
+      display:inline-block;
+      vertical-align:top;
+    }
+    span:first-child{
+      width:50px;
+      text-overflow:ellipsis;
+      overflow:hidden;
+    }
+  }
+
+  .hello{
+    background:black;
+    color:white;
+  }
+
+  .name-input{
+    width:200px;
+    margin:20px auto;
+    button, input{
+      width:100%;
+    }
+
+    button{
+      margin-top:10px;
+    }
+
+  }
+
+
+  $SUBMIT_BUTTON_WIDTH:60px;
+  .input {
+    input {
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 100%;
+      padding-right: $SUBMIT_BUTTON_WIDTH;
+      bottom: 0;
+    }
+    button {
+      float: right;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: $SUBMIT_BUTTON_WIDTH;
+    }
+  }
+}

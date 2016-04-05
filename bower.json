@@ -1,0 +1,25 @@
+{
+  "name": "client-side-chatroom",
+  "homepage": "https://github.com/GuyMograbi/client-side-chatroom",
+  "authors": [
+    "guy mograbi <guy.mograbi@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.3",
+    "angular": "angularjs#~1.5.3",
+    "ng-enter": "guymograbi/ng-enter",
+    "angular-scroll-glue": "~2.0.6",
+    "angular-smilies": "~1.2.1"
+  }
+}

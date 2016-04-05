@@ -1,0 +1,25 @@
+{
+  "name": "client-side-chatroom",
+  "version": "0.0.0",
+  "scripts": {
+    "watch:start": "live-server",
+    "start" : "npm-run-all --parallel watch:*",
+    "build:css": "node-sass --include-path style style/main.scss  main.css",
+    "watch:css": "nodemon -e scss -x \"npm run build:css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuyMograbi/client-side-chatroom.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuyMograbi/client-side-chatroom/issues"
+  },
+  "homepage": "https://github.com/GuyMograbi/client-side-chatroom#readme",
+  "dependencies": {
+    "live-server": "^0.9.2",
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.9.1",
+    "npm-run-all": "^1.7.0"
+  }
+}
