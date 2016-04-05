@@ -10,4 +10,4 @@
 
 excuse the animated gif colors..
 
- [](desktop-animation.gif)
+ ![](desktop-animation.gif)
